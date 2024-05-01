@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
-import "dotenv/config";
+import dotenv from "dotenv";
+dotenv.config();
 
 const fetchUser = (req, res, next) => {
   // get the user from the jwt token and add it to req object
