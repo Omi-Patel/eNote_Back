@@ -1,6 +1,7 @@
 
 
 import { connect } from "mongoose";
+import "dotenv/config";
 
 
 const connectToMongo = async () => {
